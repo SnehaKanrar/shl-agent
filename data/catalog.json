@@ -1,0 +1,130 @@
+[
+  {
+    "id": 0,
+    "name": ".NET Framework 4.5",
+    "url": "https://www.shl.com/products/product-catalog/view/net-framework-4-5/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures knowledge of the .NET Framework 4.5, including core libraries and runtime concepts.",
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 1,
+    "name": ".NET MVC (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/net-mvc-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures knowledge of the ASP.NET MVC framework, including routing, controllers, and views.",
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 2,
+    "name": "SQL (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/sql-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the knowledge of SQL queries, data manipulation and transaction processing.",
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 3,
+    "name": "Manual Testing (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/manual-testing-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the knowledge of the software testing life cycle, testing tools and techniques, design of test cases and generation of test reports.",
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 4,
+    "name": "Spring (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/spring-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the knowledge of Spring core, AOP, IOC container and transactions.",
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 5,
+    "name": "Marketing (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/marketing-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the conceptual knowledge of marketing principles, market research, consumer behavior, brand management, sales management, channel management and advertisement management.",
+    "job_levels": ["Graduate", "Manager", "Mid-Professional", "Professional Individual Contributor", "Supervisor"]
+  },
+  {
+    "id": 6,
+    "name": "Human Resources (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/human-resources-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures understanding of basic Human Resources concepts like planning, training and development, performance appraisal, and compensation management, plus organizational behavior.",
+    "job_levels": ["Graduate", "Manager", "Mid-Professional", "Professional Individual Contributor", "Supervisor"]
+  },
+  {
+    "id": 7,
+    "name": "Accounts Payable (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures knowledge of accounts payable processes and procedures.",
+    "job_levels": ["Entry-Level", "Professional Individual Contributor"]
+  },
+  {
+    "id": 8,
+    "name": "Accounts Payable Simulation (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/accounts-payable-simulation-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["S"],
+    "test_type_labels": ["Simulations"],
+    "description": "Job simulation that measures a candidate's ability to perform realistic accounts payable tasks.",
+    "job_levels": ["Entry-Level", "Professional Individual Contributor"]
+  },
+  {
+    "id": 9,
+    "name": "Accounts Receivable (New)",
+    "url": "https://www.shl.com/products/product-catalog/view/accounts-receivable-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures knowledge of accounts receivable processes and procedures.",
+    "job_levels": ["Entry-Level", "Professional Individual Contributor"]
+  },
+  {
+    "id": 10,
+    "name": "Global Skills Development Report",
+    "url": "https://www.shl.com/products/product-catalog/view/global-skills-development-report/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["A", "E", "B", "C", "D", "P"],
+    "test_type_labels": [
+      "Ability & Aptitude",
+      "Assessment Exercises",
+      "Biodata & Situational Judgement",
+      "Competencies",
+      "Development & 360",
+      "Personality & Behavior"
+    ],
+    "description": "A development report that consolidates results across ability, personality and competency data into skills development recommendations.",
+    "job_levels": ["Manager", "Mid-Professional", "Professional Individual Contributor", "Supervisor"]
+  }
+]

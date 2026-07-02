@@ -1,0 +1,11 @@
+﻿.env
+.env copy
+venv/
+app/__pycache__/
+data/raw_cache/
+data/data/
+debug_screenshot.png
+debug_page.html
+page_dump.html
+dump_page.py
+scrape_catalog_playwright.py
