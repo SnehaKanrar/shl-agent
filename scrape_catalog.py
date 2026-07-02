@@ -28,7 +28,7 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 BASE = "https://www.shl.com"
-LIST_URL = "https://www.shl.com/solutions/products/product-catalog/"
+LIST_url = "https://www.shl.com/solutions/products/product-catalog/"
 PAGE_SIZE = 12
 MAX_PAGES = 40
 HEADERS = {
@@ -49,7 +49,7 @@ def dismiss_cookie_banner(page):
 
 
 def render_listing_html(page, start: int) -> str:
-    url = f"{LIST_URL}?start={start}&type=1"
+    url = f"{LIST_url}?start={start}&type=1"
     page.goto(url, wait_until="networkidle", timeout=45000)
     dismiss_cookie_banner(page)
     page.wait_for_timeout(2500)  # let any AJAX table finish rendering

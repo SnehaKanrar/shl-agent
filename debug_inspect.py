@@ -15,10 +15,10 @@ Run:
 """
 from playwright.sync_api import sync_playwright
 
-URL = "https://www.shl.com/solutions/products/product-catalog/?start=0&type=1"
+URL = "https://www.shl.com/solutions/products/product-catalog/"
 
 with sync_playwright() as p:
-    browser = p.chromium.launch(headless=True)
+    browser = p.chromium.launch(headless=False)
     page = browser.new_page(user_agent=(
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
@@ -26,7 +26,7 @@ with sync_playwright() as p:
     print(f"Navigating to {URL} ...")
     page.goto(URL, wait_until="networkidle", timeout=45000)
 
-    for text in ["Continue", "Accept", "I understand and wish to continue"]:
+    for text in ["Allow all cookies", "Allow all", "Continue", "Accept", "I understand and wish to continue"]:
         try:
             btn = page.get_by_text(text, exact=False).first
             if btn.is_visible(timeout=1500):

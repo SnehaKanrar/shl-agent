@@ -13,12 +13,12 @@
   {
     "id": 1,
     "name": ".NET MVC (New)",
-    "url": "https://www.shl.com/products/product-catalog/view/net-mvc-new/",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/net-mvc-new/",
     "remote_testing": true,
     "adaptive_irt": false,
     "test_type": ["K"],
     "test_type_labels": ["Knowledge & Skills"],
-    "description": "Multi-choice test that measures knowledge of the ASP.NET MVC framework, including routing, controllers, and views.",
+    "description": "Multi-choice test that measures the knowledge of Model-View-Controller (MVC) architecture, validation, security, routing, and areas.",
     "job_levels": ["Mid-Professional", "Professional Individual Contributor"]
   },
   {
@@ -116,15 +116,107 @@
     "remote_testing": true,
     "adaptive_irt": false,
     "test_type": ["A", "E", "B", "C", "D", "P"],
-    "test_type_labels": [
-      "Ability & Aptitude",
-      "Assessment Exercises",
-      "Biodata & Situational Judgement",
-      "Competencies",
-      "Development & 360",
-      "Personality & Behavior"
-    ],
+    "test_type_labels": ["Ability & Aptitude", "Assessment Exercises", "Biodata & Situational Judgement", "Competencies", "Development & 360", "Personality & Behavior"],
     "description": "A development report that consolidates results across ability, personality and competency data into skills development recommendations.",
     "job_levels": ["Manager", "Mid-Professional", "Professional Individual Contributor", "Supervisor"]
+  },
+  {
+    "id": 11,
+    "name": "Management Scenarios",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/management-scenarios/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["C"],
+    "test_type_labels": ["Competencies"],
+    "description": "A unique test of Managerial Judgement - an individual's ability to decide on effective ways of handling real life work scenarios, rated on a 6-point desirability scale.",
+    "job_levels": ["Front Line Manager", "Manager", "Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 12,
+    "name": "Android Development (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/android-development-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the knowledge of UI components for an Android device, services and alerts, animation and media apps, application components, security and testing.",
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 13,
+    "name": "Medical Terminology (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/medical-terminology-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the knowledge of different medical terms and abbreviations related to the human body, diseases and diagnosis.",
+    "job_levels": ["Graduate", "Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 14,
+    "name": "English Comprehension (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/english-comprehension-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multiple-choice test that measures vocabulary, grammar and reading comprehension skills.",
+    "job_levels": ["Entry-Level", "Graduate", "Professional Individual Contributor"]
+  },
+  {
+    "id": 15,
+    "name": "JavaScript (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/javascript-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures knowledge of programming in the JavaScript language and its application in front-end development.",
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 16,
+    "name": "Typing (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/typing-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["S"],
+    "test_type_labels": ["Simulations"],
+    "description": "Typing based test that evaluates typing speed and accuracy.",
+    "job_levels": ["Entry-Level", "Professional Individual Contributor"]
+  },
+  {
+    "id": 17,
+    "name": "Verify - Numerical Ability",
+    "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-ability/",
+    "remote_testing": true,
+    "adaptive_irt": true,
+    "test_type": ["A"],
+    "test_type_labels": ["Ability & Aptitude"],
+    "description": "Measures the ability to derive numerical problems from written information, calculate answers to numerical equations, and work with numerical data in a realistic workplace context.",
+    "job_levels": ["Graduate", "Manager", "Mid-Professional", "Professional Individual Contributor", "Supervisor"]
+  },
+  {
+    "id": 18,
+    "name": "SHL Verify Interactive - Numerical Reasoning",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["A"],
+    "test_type_labels": ["Ability & Aptitude"],
+    "description": "Assesses how the candidate comprehends and works with numerical information presented in various interactive formats such as charts and graphs.",
+    "job_levels": ["Graduate", "Manager", "Mid-Professional", "Professional Individual Contributor", "Supervisor"]
+  },
+  {
+    "id": 19,
+    "name": "SHL Verify Interactive Numerical Calculation",
+    "url": "https://www.shl.com/products/product-catalog/view/shl-verify-interactive-numerical-calculation/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["A"],
+    "test_type_labels": ["Ability & Aptitude"],
+    "description": "Measures a candidate's ability to work with numbers and use appropriate mathematics in different situations, including basic calculation and order of operations.",
+    "job_levels": ["Graduate", "Mid-Professional", "Professional Individual Contributor", "Supervisor"]
   }
 ]
