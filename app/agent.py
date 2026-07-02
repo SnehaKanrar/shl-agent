@@ -25,6 +25,7 @@ MODEL_NAME = os.environ.get("LLM_MODEL", "llama-3.3-70b-versatile")
 _client = OpenAI(
     api_key=os.environ.get("GROQ_API_KEY", os.environ.get("OPENAI_API_KEY", "")),
     base_url=os.environ.get("LLM_BASE_URL", "https://api.groq.com/openai/v1"),
+    timeout=15.0,
 )
 
 SYSTEM_PROMPT = """You are the intent-understanding module of an SHL assessment \
@@ -77,7 +78,9 @@ def _call_llm(messages: List[ChatMessage]) -> dict:
         raw = resp.choices[0].message.content.strip()
         raw = re.sub(r"^```(json)?|```$", "", raw.strip(), flags=re.MULTILINE).strip()
         return json.loads(raw)
-    except Exception:
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
         # Fail safe: if the LLM/JSON parsing breaks, fall back to a clarifying
         # question instead of crashing the endpoint or hallucinating a shortlist.
         return {
