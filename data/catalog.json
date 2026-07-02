@@ -218,5 +218,71 @@
     "test_type_labels": ["Ability & Aptitude"],
     "description": "Measures a candidate's ability to work with numbers and use appropriate mathematics in different situations, including basic calculation and order of operations.",
     "job_levels": ["Graduate", "Mid-Professional", "Professional Individual Contributor", "Supervisor"]
+  },
+  {
+    "id": 20,
+    "name": "C Programming (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/c-programming-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the knowledge of C programming basics, functions, arrays, composed data types, and advanced C concepts like SLF, file handling and dynamic memory.",
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 21,
+    "name": "Cloud Computing (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/cloud-computing-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the knowledge of cloud computing concepts, cloud service models, virtualization and private clouds.",
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 22,
+    "name": "Desktop Support (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/desktop-support-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the knowledge of networking, peripheral components, operating systems, troubleshooting and providing technical support.",
+    "job_levels": ["Graduate", "Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 23,
+    "name": "Financial Accounting (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/financial-accounting-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the ability to post journal entries, classify items into assets and liabilities, analyze financial statements and calculate financial ratios.",
+    "job_levels": ["Entry-Level", "Graduate", "Manager", "Mid-Professional", "Professional Individual Contributor", "Supervisor"]
+  },
+  {
+    "id": 24,
+    "name": "Networking and Implementation (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/networking-and-implementation-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the knowledge of networking devices, protocols, reference models, routing and implementation of networks.",
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"]
+  },
+  {
+    "id": 25,
+    "name": "Aerospace Engineering (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/aerospace-engineering-new/",
+    "remote_testing": true,
+    "adaptive_irt": false,
+    "test_type": ["K"],
+    "test_type_labels": ["Knowledge & Skills"],
+    "description": "Multi-choice test that measures the conceptual knowledge of aerodynamics, aircraft systems and instrumentation, flight dynamics, space dynamics and avionics.",
+    "job_levels": ["Graduate", "Mid-Professional", "Professional Individual Contributor"]
   }
 ]
