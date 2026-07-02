@@ -25,16 +25,14 @@ if not Path(CATALOG_PATH).exists():
 _index = CatalogIndex(CATALOG_PATH)
 
 
+@app.get("/")
+def root():
+    return {
+        "message": "SHL Assessment Recommender API is running.",
+        "endpoints": {"health": "/health", "chat": "/chat (POST)", "docs": "/docs"}
+    }
+
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
-
-
-@app.post("/chat", response_model=ChatResponse)
-def chat(req: ChatRequest):
-    reply, recommendations, end_of_conversation = handle_chat(req.messages, _index)
-    return ChatResponse(
-        reply=reply,
-        recommendations=recommendations,
-        end_of_conversation=end_of_conversation,
-    )
